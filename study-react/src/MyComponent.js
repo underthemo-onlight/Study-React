@@ -1,11 +1,11 @@
 import React from "react";
 
-const MyComponent = ({ name = "뉴진스" }) => {
-    return <div>{name} 돌려줘</div>;
+const MyComponent = ({ name = "뉴진스", children }) => {
+    return (
+        <div>{name} 돌려줘 <br />
+            {children}는 children 값
+        </div>
+    );
 }
-
-// MyComponent.defaultProps = {
-//     name: '뉴진스'
-// }
 
 export default MyComponent;

@@ -3,7 +3,7 @@ import React from "react";
 import MyComponent from "./MyComponent";
 
 const App = () => {
-  return <MyComponent />;
+  return <MyComponent>버니즈</MyComponent>;
 }
 
 export default App;
